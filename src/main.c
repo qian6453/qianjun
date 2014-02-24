@@ -17,7 +17,7 @@ void Delay(unsigned int t);
 int main(void)
 {	
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); 	// πƒ‹GPIOD			
-	GPIO_InitStructure1.GPIO_Pin   = GPIO_Pin_2;
+	GPIO_InitStructure1.GPIO_Pin   = GPIO_Pin_2;						//≤‚ ‘github
 	GPIO_InitStructure1.GPIO_Speed = GPIO_Speed_2MHz;
 	GPIO_InitStructure1.GPIO_Mode  = GPIO_Mode_Out_OD;
 	GPIO_Init(GPIOD, &GPIO_InitStructure1);	
