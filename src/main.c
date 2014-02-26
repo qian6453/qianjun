@@ -1,8 +1,8 @@
 //-------------------------------------------------
-//¹¦ÄÜ: °´¼ü¿ØÖÆLEDÉÁË¸
-//°æ±¾ºÅ£ºv0.0.0
-//±àÐ´£º ÍõÏþÈÙ
-//ÈÕÆÚ£º 20111212
+//ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½LEDï¿½ï¿½Ë¸
+//ï¿½æ±¾ï¿½Å£ï¿½v0.0.0
+//ï¿½ï¿½Ð´ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//ï¿½ï¿½ï¿½Ú£ï¿½ 20111212
 //-------------------------------------------------
 #include "stm32f10x.h"	 
 
@@ -12,17 +12,17 @@ void Delay(unsigned int t);
 ////////////////////////////////////////////////////////////////////////////////////
 
 //-------------------------------------------------
-//Ö÷³ÌÐò
-//------------------------------------------------- 
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//------------------------------------------------- WHAT THE FUCK
 int main(void)
 {	
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); 	//Ê¹ÄÜGPIOD			
-	GPIO_InitStructure1.GPIO_Pin   = GPIO_Pin_2;						//²âÊÔgithub
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); 	//Ê¹ï¿½ï¿½GPIOD			
+	GPIO_InitStructure1.GPIO_Pin   = GPIO_Pin_2;						//ï¿½ï¿½ï¿½ï¿½github
 	GPIO_InitStructure1.GPIO_Speed = GPIO_Speed_2MHz;
 	GPIO_InitStructure1.GPIO_Mode  = GPIO_Mode_Out_OD;
 	GPIO_Init(GPIOD, &GPIO_InitStructure1);	
 
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); 	//Ê¹ÄÜGPIOC			
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); 	//Ê¹ï¿½ï¿½GPIOC			
 	GPIO_InitStructure2.GPIO_Pin   = GPIO_Pin_4;
 	GPIO_InitStructure2.GPIO_Speed = GPIO_Speed_2MHz;
 	GPIO_InitStructure2.GPIO_Mode  = GPIO_Mode_IPU;
@@ -43,7 +43,7 @@ int main(void)
 }
 
 //-------------------------------------------------
-//ÑÓÊ±
+//ï¿½ï¿½Ê±
 //-------------------------------------------------
 void Delay(unsigned int t)
 { 
